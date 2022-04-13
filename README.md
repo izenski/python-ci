@@ -1,8 +1,11 @@
 # python-ci
 This is a DevOps Best Practices Repo
 
-## Create a scaffold 
+## Create a virtual environment
+* run `virtualenv ~/.venv`
+* run `source ~/.venv/bin/activate`
 
+## Create a scaffold 
 * `requirements.txt`
 * `Makefile`: Cookbook that runs commands
 * `hello/py`: Code
