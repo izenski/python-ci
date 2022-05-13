@@ -5,6 +5,11 @@ This is a DevOps Best Practices Repo
 * run `virtualenv ~/.venv`
 * run `source ~/.venv/bin/activate`
 
+### optional update ~/.bashrc
+/# at the end of the file:
+echo "sourcing VENV"
+source  ~/.venv/bin/activate
+
 ## Create a scaffold 
 * `requirements.txt`
 * `Makefile`: Cookbook that runs commands
@@ -12,5 +17,13 @@ This is a DevOps Best Practices Repo
 * `test_hello.py`: Test Code
 
 Also include build server YAML files:
-
 * GitHub Actions Config files
+
+## running the program
+$ ./app.py
+
+## running tests
+$ make test
+
+## lint the program
+$ make lint
